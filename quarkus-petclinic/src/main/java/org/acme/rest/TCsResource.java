@@ -18,8 +18,7 @@ public class TCsResource {
     @GET
     @Produces(MediaType.TEXT_HTML)
     public TemplateInstance get() {
-        return tcs.data("active", "tcs")
-                .data("message", "Terms and conditions: Testing webhooks");
+        return tcs.data("active", "tcs").data("message", "Terms and conditions: Testing webhooks IZL");
     }
 
 }
